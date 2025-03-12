@@ -8,7 +8,7 @@ public class Person {
 	public String address = null;
 	
 	public void person() {
-		System.out.println(this.name + this.age + this.phoneNumber + this.address);
+		System.out.println(this.name +","+ this.age +","+ this.phoneNumber +","+ this.address);
 	}
 		}
 	

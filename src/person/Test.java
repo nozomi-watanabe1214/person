@@ -20,6 +20,16 @@ public class Test {
 		hanako.age = 16;
 		nozomi.age = 28;
 		
+		taro.phoneNumber = "080-1234-5678";
+		jiro.phoneNumber = "070-5678-1234";
+		hanako.phoneNumber = "050-1234-5678";
+		nozomi.phoneNumber = "090-5678-1234";
+		
+		taro.address = "東京";
+		jiro.address = "埼玉";
+		hanako.address = "千葉";
+		nozomi.address = "神奈川";
+		
 		taro.person();
 		jiro.person();
 		hanako.person();
