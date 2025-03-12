@@ -20,14 +20,9 @@ public class Test {
 		hanako.age = 16;
 		nozomi.age = 28;
 		
-		System.out.println(taro.name);
-		System.out.println(taro.age);
-		System.out.println(jiro.name);
-		System.out.println(jiro.age);
-		System.out.println(hanako.name);
-		System.out.println(hanako.age);
-		System.out.println(nozomi.name);
-		System.out.println(nozomi.age);
-		
-}
-}
+		taro.person();
+		jiro.person();
+		hanako.person();
+		nozomi.person();
+		}
+	}
