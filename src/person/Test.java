@@ -30,9 +30,11 @@ public class Test {
 		hanako.address = "千葉";
 		nozomi.address = "神奈川";
 		
-		taro.person();
-		jiro.person();
-		hanako.person();
-		nozomi.person();
+		taro.jouhou();
+		taro.talk();
+		taro.walk();
+		taro.run();
 		}
 	}
+		
+		

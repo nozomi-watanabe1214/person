@@ -7,6 +7,9 @@ public class Person {
 	public String phoneNumber = null;
 	public String address = null;
 	
+	public void jouhou() {
+		System.out.println(this.name +","+ this.age);
+		}
 	public void talk() {
 		System.out.println(this.name + "が話す");
 		}
